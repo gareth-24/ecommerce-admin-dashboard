@@ -22,7 +22,7 @@ export default async function DashboardLayout({
       id: params.storeId,
       userId,
     }
-   });
+  });
 
   if (!store) {
     redirect('/');
